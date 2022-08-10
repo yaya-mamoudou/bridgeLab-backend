@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@helpers/*":["./src/helpers/*","./src/helpers/"],
+      "@routes/*":["./src/routes/*","./src/routes/"],
+      "@models/*":["./src/models/*","./src/models/"],
+      "@controllers/*":["./src/controllers/*","./src/controllers/"],
+      "@middlewares/*":["./src/middlewares/*","./src/middlewares/"],
+      "@config/*":["./src/config/*","./src/config/"],
+      "@api_doc/*":["./src/api_doc/*","./src/api_doc/"]
+
+    }
+  }
+}
