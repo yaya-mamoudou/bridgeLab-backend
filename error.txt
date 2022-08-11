@@ -1,0 +1,12 @@
+MongooseError: The  parameter to  must be a string, got undefined. Make sure the first parameter to  or  is a string.
+    at NativeConnection.Connection.openUri (C:\Users\Dell User\Desktop\_yaya_project\bridgeLab-backend\node_modules\mongoose\lib\connection.js:689:11)
+    at C:\Users\Dell User\Desktop\_yaya_project\bridgeLab-backend\node_modules\mongoose\lib\index.js:344:10
+    at promiseOrCallback (C:\Users\Dell User\Desktop\_yaya_project\bridgeLab-backend\node_modules\mongoose\lib\helpers\promiseOrCallback.js:10:12)
+    at Mongoose._promiseOrCallback (C:\Users\Dell User\Desktop\_yaya_project\bridgeLab-backend\node_modules\mongoose\lib\index.js:1182:10)
+    at Mongoose.connect (C:\Users\Dell User\Desktop\_yaya_project\bridgeLab-backend\node_modules\mongoose\lib\index.js:343:20)
+    at connectDb (C:\Users\Dell User\Desktop\_yaya_project\bridgeLab-backend\src\db\connection.js:8:11)
+    at C:\Users\Dell User\Desktop\_yaya_project\bridgeLab-backend\server.js:25:9
+    at Object.<anonymous> (C:\Users\Dell User\Desktop\_yaya_project\bridgeLab-backend\server.js:30:3)
+    at Module._compile (node:internal/modules/cjs/loader:1097:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1151:10)
+
